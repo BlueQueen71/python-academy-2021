@@ -1,20 +1,22 @@
-➡ [vratit se na patou lekci](https://github.com/Bralor/python-academy/tree/lekce05)
+➡ [vratit se na patou lekci](https://github.com/Bralor/python-academy-2021/tree/content-dev/materials/lesson05)
 
 <p align="center">
   <img alt="engeto-logo" width="100px" src="https://engeto.cz/wp-content/uploads/2019/01/engeto-square.png" />
 </p>
 
-## 6⃣ Python academy
+## 6⃣ Python akademie
 ### 🗒 Obsah lekce
 1. Uzitecne odkazy
 2. Ukazka ulohy
-3. Moduly & baliky
-4. Importovani
-5. Rozdeleni podle puvodu
+3. Uvod do hry
+4. Knihovny v Pythonu
+5. Proces importovani
+6. Rozdeleni knihoven dle puvodu
 ---
 
 
 ### 🗒 Uzitecne odkazy
+<!--PRVNI KAPITOLA-->
 - [Neoficialni dokumentace prirazovaciho operatoru (realpython.com)](https://realpython.com/lessons/assignment-expressions/)
 - [Standartni instalator balicku pro Python pip/pip3 (pypi.org)](https://pypi.org/project/pip/)
 - [Hledani modulu pomoci interpretu Pythonu (python.org)](https://docs.python.org/3/tutorial/modules.html#the-module-search-path)
@@ -24,12 +26,13 @@
 ---
 
 ### ⏯  Ukazka ulohy
+<!--DRUHA KAPITOLA-->
 <details>
   <summary>ℹ Pro vice informaci o spusteni ukazky kliknete na tento text</summary>
 
-  1. ✌  [Stahnete si cely repozitar jako **zip**](https://github.com/Bralor/python-workshop/archive/mh-dev.zip)
-  2. 💪 Presunte se ke stazenemu souboru
-  3. 🙏 Spustte soubor **obesenec.py** v PyCharm
+  1. ✌  [Stahnete si cely repozitar jako **zip**](https://github.com/Bralor/python-academy-2021/archive/content-dev.zip)
+  2. 💪 Presunte se ke stazenemu adresari
+  3. 🙏 Spustte soubor **materialy/lekce06/obesenec.py** v PyCharm
   4. 🐍 Spustte program pomoci klaves **ctrl+shift+F10**
   5. 🎥 Zkousejte!
 
@@ -38,8 +41,9 @@
 ---
 
 ### Uvod do hry
+<!--TRETI KAPITOLA-->
 <details>
-   <summary>💾 Uvod hry - uvodni promenne, potrebne pro prubeh hry _obesenec_ </summary>
+   <summary>💾 Uvod hry - uvodni promenne, potrebne pro prubeh hry obesenec</summary>
 
    #### 🎮 Pocatecni promenne
    1. `SLOVO` obsahuje hadane slovo (konstanta)
@@ -97,7 +101,7 @@
 </details>
 
    #### 🔚 Game over!
-   1. Pokud ma hrac v `zivoty = 0`
+   1. Pokud ma hrac `zivoty = 0`
    2. Pokud `hra_bezi = False`
 
 <details>
@@ -134,10 +138,10 @@
    <summary>🐂 Mozna upravy - pomoci externich knihoven muzeme hru zdokonalit </summary>
 
    #### 🔧 Co muzeme upravit
-   1. Pridat ruzna hadana slova
-   2. Zajistit nahodny vyber slova
-   3. Vykreslit menici se figurku obesence v kazdem kole
-   4. Zajistit cistejsi vypis
+   1. Pridat *vice* hadanych slov
+   2. Zajistit *nahodny vyber* slova
+   3. Vykreslit *menici se figurku* obesence v kazdem kole
+   4. Zajistit *mene upovidany* vypis
 
 </details>
 
@@ -207,7 +211,7 @@
 ### Proces importovani
 
 <details>
-   <summary>📥 Metody importovani - 3 zpusoby pro nahrani knihoven</summary>
+   <summary>📥 Metody importovani - 3 zpusoby pro nahrani knihoven do naseho souboru</summary>
 
    #### ☝ K zapamatovani
    1. `import pprint` - nahrajeme cely modul, pouziti `modul.funkce` (muzeme doplnit alias)
@@ -237,10 +241,10 @@
 
 ---
 
-### Rozdeleni podle puvodu
+### Rozdeleni knihoven dle puvodu
 
 <details>
-   <summary>🏘 Knihovny standartn - mame ihned po instalaci k dispozici</summary>
+   <summary>🏘 Knihovny standarti - mame ihned po instalaci k dispozici</summary>
 
    #### ☝ K zapamatovani
    Nainstalujeme jazyk, interpret a tyto knihovny. Nemusim instalovat, staci
@@ -303,7 +307,7 @@
 </details>
 
 <details>
-   <summary>👾 Knihovny tretich stran</summary>
+   <summary>👾 Knihovny tretich stran - nejsou bezne k dispozici. Musime doinstalovat pomoci manazer knihoven v Pythonu</summary>
 
    Material je soucasti 12. lekce 😈
 
@@ -371,5 +375,5 @@
 -->
 ---
 
-➡ [pokracovat k sedme lekci]()
+➡ [pokracovat k sedme lekci](https://github.com/Bralor/python-academy-2021/tree/content-dev/materials/lesson07)
 
