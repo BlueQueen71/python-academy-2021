@@ -15,17 +15,17 @@
 
 
 ### 🗒 Uzitecne odkazy
-- [Instalator balicku, pip3](https://pypi.org/project/pip/)
-- [\_\_init\_\_.py](https://pythontips.com/2013/07/28/what-is-__init__-py/)
-- [Walrus operator, dokumentace](https://realpython.com/lessons/assignment-expressions/)
-- [Python.org, hledani modulu](https://docs.python.org/3/tutorial/modules.html#the-module-search-path)
-- [Pycharm importing](https://www.jetbrains.com/help/pycharm/installing-uninstalling-and-upgrading-packages.html)
+- [Neoficialni dokumentace prirazovaciho operatoru (realpython.com)](https://realpython.com/lessons/assignment-expressions/)
+- [Standartni instalator balicku pro Python pip/pip3 (pypi.org)](https://pypi.org/project/pip/)
+- [Hledani modulu pomoci interpretu Pythonu (python.org)](https://docs.python.org/3/tutorial/modules.html#the-module-search-path)
+- [Neoficialni dokumentace o ucelu souboru \_\_init\_\_.py](https://pythontips.com/2013/07/28/what-is-__init__-py/)
+- [Jak nainstalovat knihovny tretich stran pomoci Pycharm (jetbrains.com)](https://www.jetbrains.com/help/pycharm/installing-uninstalling-and-upgrading-packages.html)
 
 ---
 
 ### ⏯  Ukazka ulohy
 <details>
-  <summary>ℹ Pro vice informaci o spusteni ukazky, rozkliknete</summary>
+  <summary>ℹ Pro vice informaci o spusteni ukazky kliknete na tento text</summary>
 
   1. ✌  [Stahnete si cely repozitar jako **zip**](https://github.com/Bralor/python-workshop/archive/mh-dev.zip)
   2. 💪 Presunte se ke stazenemu souboru
@@ -37,7 +37,7 @@
 
 ---
 
-### 📦 Moduly & baliky
+### Uvod do hry
 <details>
    <summary>💾 Uvod hry - uvodni promenne, potrebne pro prubeh hry _obesenec_ </summary>
 
@@ -101,7 +101,7 @@
    2. Pokud `hra_bezi = False`
 
 <details>
-   <summary>👇 Nase reseni 👇</summary>
+   <summary>✍ Nase reseni</summary>
 
    #### 📂 obesenec.py
    ```python
@@ -134,16 +134,16 @@
    <summary>🐂 Mozna upravy - pomoci externich knihoven muzeme hru zdokonalit </summary>
 
    #### 🔧 Co muzeme upravit
-   1. Pridat hadana slova
-   2. Nahodny vyber slova
+   1. Pridat ruzna hadana slova
+   2. Zajistit nahodny vyber slova
    3. Vykreslit menici se figurku obesence v kazdem kole
    4. Zajistit cistejsi vypis
 
----
-
 </details>
 
-### ⚙ Knihovny Pythonu
+---
+
+### Knihovny Pythonu
 
 <details>
    <summary>📗 Moduly - standartni moduly jako soubory v Pythonu</summary>
@@ -191,7 +191,7 @@
 </details>
 
 <details>
-   <summary>⏪ Rekapitulace</summary>
+   <summary>⏪ Zaver - souhrn hlavnich bodu pro praci s knihovnami</summary>
 
    #### 💪 Souhrn vyhod modulu & baliku
    1. Nemusime opakovane prepisovat stejne instrukce
