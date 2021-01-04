@@ -204,18 +204,26 @@
 
 ---
 
+### Proces importovani
+
 <details>
-   <summary>📥 Importovani</summary>
+   <summary>📥 Metody importovani - 3 zpusoby pro nahrani knihoven</summary>
 
    #### ☝ K zapamatovani
-   Predpis pro nahrani modulu/baliku ma svoje pravidla (pomocna funkce `dir`):
-   1. `import pprint` - nahrajeme cely modul, pouziti `modul.funkce`
+   1. `import pprint` - nahrajeme cely modul, pouziti `modul.funkce` (muzeme doplnit alias)
    2. `from pprint import *` - nahrajeme cely modul, pouziti `funkce`
-   3. `from pprint import pprint` - nahraje pouze vybranou funkci (`funkce`)
+   3. `from pprint import pprint` - nahraje pouze vybranou funkci (`funkce`) (muzeme doplnit alias)
    4. `as` - doplneni aliasu, pouziti `from pprint import pprint as pp` (`pp`)
    [**🔝 Vyzkousej sam 🔝**](https://repl.it/@JustBraloR/importingmethods#main.py)
 
-   #### 📽 Hledani modul
+---
+
+</details>
+
+<details>
+   <summary>📽 Hledani modulu - proces hledani modulu pomoci interpretu</summary>
+
+   #### ☝ K zapamatovani
    1. Interpret uvidi oznameni o nahravani modulu (pr. `import`)
    2. Prohleda zabudovane moduly: `sys.builtin_module_names`
    3. Dale prohleda: `sys.modules` (s podporou symlinku)
@@ -229,22 +237,21 @@
 
 ---
 
-<details>
-   <summary>🗂 Rozdeleni podle puvodu</summary>
+### Rozdeleni podle puvodu
 
 <details>
-   <summary>🏘 Knihovny standartni</summary>
+   <summary>🏘 Knihovny standartn - mame ihned po instalaci k dispozici</summary>
 
    #### ☝ K zapamatovani
    Nainstalujeme jazyk, interpret a tyto knihovny. Nemusim instalovat, staci
    nahrat a pouzivat.
 
    #### ❓Modul random
-   1. Pokud vyzadujeme vyuziti [prvku pseudo-nahody](https://docs.python.org/3/library/random.html),
+   Pokud vyzadujeme vyuziti [prvku pseudo-nahody](https://docs.python.org/3/library/random.html),
    pouzijeme standartni modul `random`:
 
 <details>
-   <summary>👇 Nase reseni 👇</summary>
+   <summary>✍ Nase reseni</summary>
 
    #### 📂obesenec.py
    ```python
@@ -254,20 +261,20 @@
    slovo = random.choice(SLOVA)
    ```
 ---
+
 </details>
 
    #### 🕺 Vlastni modul
-   1. Spolecne si nahrajeme nas vlastni modul `figurka`
+   1. Spolecne si nahrajeme nas vlastni modul `figurka.py`
    2. Pouzijeme slovnik `hangman` uvnitr souboru
    3. Doplnime vypis v kazdem kole a pri prohre
 
 <details>
-   <summary>👇 Nase reseni 👇</summary>
+   <summary>✍ Nase reseni</summary>
 
    #### 📂obesenec.py
    ```python
    import figurka
-
 
    print(figurka.hangman[7 - zivoty])
    ```
@@ -281,7 +288,7 @@
    2. Aplikujeme funkci, pro strucny vystup ve vypisu a v zaveru
 
 <details>
-   <summary>👇 Nase reseni 👇</summary>
+   <summary>✍ Nase reseni</summary>
 
    #### 📂obesenec.py
    ```python
@@ -298,6 +305,11 @@
 <details>
    <summary>👾 Knihovny tretich stran</summary>
 
+   Material je soucasti 12. lekce 😈
+
+</details>
+
+<!--PRIJDE DO POSLEDNI LEKCE
    #### ☝ K zapamatovani
    Protoze je knihoven pro Python spousta, nektere je potreba doinstalovat rucne.
 
@@ -356,7 +368,7 @@
 </details>
 
 </details>
-
+-->
 ---
 
 ➡ [pokracovat k sedme lekci]()
