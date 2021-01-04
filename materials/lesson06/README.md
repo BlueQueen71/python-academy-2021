@@ -240,6 +240,7 @@
 </details>
 
 ---
+<br />
 
 ### Rozdeleni knihoven dle puvodu
 
