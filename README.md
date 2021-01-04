@@ -25,32 +25,28 @@ The best place is the official website
 
 ### 📓 Engeto Python academy 2020
 - the goal is to learn think like a programmer
-- lesson#01-06: we will focus on the basics
+- lesson#01-06: we will focus on the basics (intro, data types, conditions, loops)
 - lesson#07-12: trying to comprehend more difficult features
 ---
 
 ### 🗒 Lessons
-1. [Introduction](https://github.com/Bralor/python-academy/tree/lekce01)
-2. [Conditions](https://github.com/Bralor/python-academy/blob/lekce02/README.md)
-3. [Dictionaries & sets](https://github.com/Bralor/python-academy/tree/lekce03)
-4. [While loop](https://github.com/Bralor/python-academy/tree/lekce04)
-5. [For loop](https://github.com/Bralor/python-academy/tree/lekce05)
-6. [Functions, basics](https://github.com/Bralor/python-academy/tree/lekce06)
-7. [Functions, advanced](https://github.com/Bralor/python-academy/tree/lekce07)
-8. [Text files](https://github.com/Bralor/python-academy/tree/lekce08)
-9. [Error handling, debugging](https://github.com/Bralor/python-academy/tree/lekce09)
-10. [Importing, modules & packages](https://github.com/Bralor/python-academy/tree/lekce10)
-11. [Json & csv files](https://github.com/Bralor/python-academy/tree/lekce11)
-12. [Web-scraping](https://github.com/Bralor/python-academy/tree/lekce12)
+1. [Introduction](https://github.com/Bralor/python-academy-2021/tree/master/materials/lesson01)
+2. [Conditions](https://github.com/Bralor/python-academy-2021/tree/master/materials/lesson02)
+3. [Dictionaries & sets](https://github.com/Bralor/python-academy-2021/tree/master/materials/lesson03)
+4. [While loop](https://github.com/Bralor/python-academy-2021/tree/master/materials/lesson04)
+5. [For loop](https://github.com/Bralor/python-academy-2021/tree/master/materials/lesson05)
+6. [Importing, modules & packages](https://github.com/Bralor/python-academy-2021/tree/master/materials/lesson06)
+7. [Functions, basics](https://github.com/Bralor/python-academy-2021/tree/master/materials/lesson07)
+8. [Functions, advanced](https://github.com/Bralor/python-academy-2021/tree/master/materials/lesson08)
+9. [Text files](https://github.com/Bralor/python-academy-2021/tree/master/materials/lesson09)
+10. [Error handling, debugging](https://github.com/Bralor/python-academy-2021/tree/master/materials/lesson10)
+11. [Json & csv files](https://github.com/Bralor/python-academy-2021/tree/master/materials/lesson11)
+12. [Web-scraping](https://github.com/Bralor/python-academy-2021/tree/master/materials/lesson12)
 ---
 
 ### 🆕 Updates
 <!--START_SECTION:activities-->
-1. 🏁 Issue [#107](https://github.com/Bralor/python-academy/issues/107) in [python-academy](https://github.com/Bralor/python-academy)
-2. 🏁 Issue [#109](https://github.com/Bralor/python-academy/issues/109) in [python-academy](https://github.com/Bralor/python-academy) ([Lesson03](https://github.com/Bralor/python-academy/tree/lekce03) modified)
-3. 🏁 Issue [#113](https://github.com/Bralor/python-academy/issues/113) in [python-academy](https://github.com/Bralor/python-academy) ([Lesson04](https://github.com/Bralor/python-academy/tree/lekce04) modified)
-4. 🏁 Issue [#119](https://github.com/Bralor/python-academy/issues/119) in [python-academy](https://github.com/Bralor/python-academy) ([Lesson01](https://github.com/Bralor/python-academy/tree/lekce04) modified)
-5. 🏁 Issue [#122](https://github.com/Bralor/python-academy/issues/119) in [python-academy](https://github.com/Bralor/python-academy) ([Lesson02](https://github.com/Bralor/python-academy/tree/lekce02) modified)
+1. 🏁 Issue [#3](https://github.com/Bralor/python-academy-2021/issues/3) in [python-academy](https://github.com/Bralor/python-academy-2021)
 <!--END_SECTION:activities-->
 
 ---
