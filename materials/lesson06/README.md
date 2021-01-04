@@ -12,6 +12,8 @@
 4. Knihovny v Pythonu
 5. Proces importovani
 6. Rozdeleni knihoven dle puvodu
+<br />
+
 ---
 
 
@@ -22,6 +24,7 @@
 - [Hledani modulu pomoci interpretu Pythonu (python.org)](https://docs.python.org/3/tutorial/modules.html#the-module-search-path)
 - [Neoficialni dokumentace o ucelu souboru \_\_init\_\_.py](https://pythontips.com/2013/07/28/what-is-__init__-py/)
 - [Jak nainstalovat knihovny tretich stran pomoci Pycharm (jetbrains.com)](https://www.jetbrains.com/help/pycharm/installing-uninstalling-and-upgrading-packages.html)
+<br />
 
 ---
 
@@ -37,6 +40,7 @@
   5. 🎥 Zkousejte!
 
 </details>
+<br />
 
 ---
 
@@ -144,6 +148,7 @@
    4. Zajistit *mene upovidany* vypis
 
 </details>
+<br />
 
 ---
 
@@ -195,7 +200,7 @@
 </details>
 
 <details>
-   <summary>⏪ Zaver - souhrn hlavnich bodu pro praci s knihovnami</summary>
+   <summary>⏪ Souhrn - 3 hlavni body pro praci s knihovnami</summary>
 
    #### 💪 Souhrn vyhod modulu & baliku
    1. Nemusime opakovane prepisovat stejne instrukce
@@ -205,6 +210,7 @@
 </details>
 
 </details>
+<br />
 
 ---
 
@@ -238,14 +244,14 @@
    [**🔝 Vyzkousej sam 🔝**](https://repl.it/@JustBraloR/wrongway#main.py)
 
 </details>
+<br />
 
 ---
-<br />
 
 ### Rozdeleni knihoven dle puvodu
 
 <details>
-   <summary>🏘 Knihovny standarti - mame ihned po instalaci k dispozici</summary>
+   <summary>🏘 Knihovny standartni - mame ihned po instalaci k dispozici</summary>
 
    #### ☝ K zapamatovani
    Nainstalujeme jazyk, interpret a tyto knihovny. Nemusim instalovat, staci
@@ -313,6 +319,7 @@
    Material je soucasti 12. lekce 😈
 
 </details>
+<br />
 
 <!--PRIJDE DO POSLEDNI LEKCE
    #### ☝ K zapamatovani
