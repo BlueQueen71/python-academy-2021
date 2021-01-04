@@ -25,7 +25,7 @@
 
 ### ⏯  Ukazka ulohy
 <details>
-  <summary>ℹ pro vice informaci rozkliknete</summary>
+  <summary>ℹ Pro vice informaci o spusteni ukazky, rozkliknete</summary>
 
   1. ✌  [Stahnete si cely repozitar jako **zip**](https://github.com/Bralor/python-workshop/archive/mh-dev.zip)
   2. 💪 Presunte se ke stazenemu souboru
@@ -38,28 +38,26 @@
 ---
 
 ### 📦 Moduly & baliky
+<details>
+   <summary>💾 Uvod hry - uvodni promenne, potrebne pro prubeh hry _obesenec_ </summary>
+
+   #### 🎮 Pocatecni promenne
+   1. `SLOVO` obsahuje hadane slovo (konstanta)
+   2. `tajenka` prepise jednotliva pismena na podtrzitka
+   3. `zivoty` nastavime defaultni pocet pokusu jako `7`
+   4. `hra_bezi` pomucka pro ukonceni prubehu hry (`True`)
 
 <details>
-   <summary>💾 Uvod hry</summary>
-
-   #### 🎮 Obesenec
-   1. Pomocna promenna `SLOVO` (konstanta)
-   2. Pomocna promenna `tajenka` (podtrzitka misto pismen)
-   3. Pomocna promenna `zivoty` (hodnota = `7`)
-   4. Pomocna promenna `hra_probiha` (hodnota = `True`)
-
-<details>
-   <summary>👇 Nas zapis 👇</summary>
+   <summary>✍ Nas zapis</summary>
 
    #### 📂 obesenec.py
    ```python
    #!/usr/bin/python3
 
-
-   SLOVO = "obesenec"
-   tajenka = len(SLOVO) * ["_"]
+   SLOVO = "obesenec"            # libovolne slovo pro zkouseni
+   tajenka = len(SLOVO) * ["_"]  # nelze pouzit string
    zivoty = 7
-   hra_probiha = True
+   hra_bezi = True
    ```
 </details>
 
@@ -70,11 +68,37 @@
 </details>
 
 <details>
-   <summary>♻ Prubeh kol</summary>
+   <summary>♻ Prubeh hry - proces, ktery se opakuje v kazdem kole hry</summary>
 
-   #### 🔚 Kdy hra konci
-   1. Dokud ma hrac v promenne `zivoty` hodnotu vetsi jak `0`
-   2. Nasledne zastavime prubeh pomoci `hra_probiha`
+   #### 👀 V kazdem kole
+   1. Vypsat stav hry
+   2. Necham hrace zadat pismeno/slovo (promenna `hadani`)
+   3. Sestavime vhodne podminky (uhodne slovo/ pismeno/ neuhodne)
+
+<details>
+   <summary>✍ Nase reseni</summary>
+
+   #### 📂 obesenec.py
+   ```python
+   print(f"TAJENKA: {' '.join(tajenka)}, ZIVOTY: {zivoty}")
+   hadani = input("Hadej pismeno nebo cele slovo:")
+
+   if hadani == SLOVO:
+       hra_bezi = False
+
+   elif len(hadani) == 1 and hadani in SLOVO:
+       print()
+
+   else:
+       zivoty -= 1
+   ```
+   [**🔝 Vyzkousej sam 🔝**](https://repl.it/@JustBraloR/sample1-1#main.py)
+
+</details>
+
+   #### 🔚 Game over!
+   1. Pokud ma hrac v `zivoty = 0`
+   2. Pokud `hra_bezi = False`
 
 <details>
    <summary>👇 Nase reseni 👇</summary>
@@ -82,60 +106,47 @@
    #### 📂 obesenec.py
    ```python
    while hra_probiha and zivoty > 0:
-       ...
+       print(f"TAJENKA: {' '.join(tajenka)}, ZIVOTY: {zivoty}")
+       hadani = input("Hadej pismeno nebo cele slovo:")
+
+       if hadani == SLOVO:
+           hra_bezi = False
+
+       elif len(hadani) == 1 and hadani in SLOVO:
+           print()
+
+       else:
+           zivoty -= 1
+
    else:
        if not hra_probiha:
-           print(f"Tajenka: {SLOVO}")
-           print("Super! Vitezis, jsi frajer kurzu!")
+           print(f"Tajenka: {SLOVO}", "Jsi vitez hry, gratulace", sep="\n")
        else:
-           print(f"Bohuzel, prohrals. Hledane slovo: *{SLOVO}*")
+           print(f"Bohuzel, prohrals:(", f"Hledane slovo: *{SLOVO}*", sep="\n")
    ```
 </details>
-
-   #### 👀 V kazdem kole
-   1. Vypisu stav hry
-   2. Necham hrace zadat pismeno/slovo (promenna `hadani`)
-   3. Sestavime vhodne podminky (uhodne slovo/ pismeno/ neuhodne)
-
-<details>
-   <summary>👇 Nase reseni 👇</summary>
-
-   #### 📂 obesenec.py
-   ```python
-   print(f"TAJENKA: {' '.join(tajenka)}, ZIVOTY: {zivoty}")
-   hadani = input("Hadej pismeno nebo cele slovo:").lower()
-
-   if hadani == SLOVO:
-       hra_probiha = False
-
-   elif len(hadani) == 1 and hadani in SLOVO:
-       for index, pismeno in enumerate(SLOVO):
-           if pismeno == hadani:
-               tajenka[index] = hadani
-       if "_" not in tajenka:
-           hra_probiha = False
-
-   else:
-       zivoty -= 1
-   ```
-   [**🔝 Vyzkousej sam 🔝**](https://repl.it/@JustBraloR/sample1-1#main.py)
 
 ---
 
 </details>
 
-   #### ❓ Konec nebo ne
-   Hra nam funguje. Co bychom mohli zlepsit?
-   1. Vice hadanych slov
+<details>
+   <summary>🐂 Mozna upravy - pomoci externich knihoven muzeme hru zdokonalit </summary>
+
+   #### 🔧 Co muzeme upravit
+   1. Pridat hadana slova
    2. Nahodny vyber slova
-   3. Cistejsi vypis
+   3. Vykreslit menici se figurku obesence v kazdem kole
+   4. Zajistit cistejsi vypis
 
 ---
 
 </details>
 
+### ⚙ Knihovny Pythonu
+
 <details>
-   <summary>⚙ Moduly</summary>
+   <summary>📗 Moduly - standartni moduly jako soubory v Pythonu</summary>
 
    #### ☝ K zapamatovani
    1. Jde o soubor s priponou `py`
@@ -157,13 +168,15 @@
 </details>
 
 <details>
-   <summary>🗃 Baliky</summary>
+   <summary>🗃 Balik - standartni baliky jako adresare v Pythonu</summary>
 
    #### ☝ K zapamatovani
    1. Sbirka nekolika modulu
    2. Spolecne umistene v adresari
    3. Baliky obsahuji `__init__.py`
    4. Baliky obsahuji `__pycache__`
+
+   [**🔝 Vyzkousej sam 🔝**](https://repl.it/@JustBraloR/myownpackage#main.py)
 
    #### 🔍 Soubor init
    Tento, dost casto prazdny, soubor umoznuje interpretu najit & nahrat moduly.
