@@ -30,13 +30,13 @@ The best place is the official website
 ---
 
 ### 🗒 Lessons
-1. [Introduction](https://github.com/Bralor/python-academy-2021/tree/master/materials/lesson01)
+1. [Intro to programming](https://github.com/Bralor/python-academy-2021/tree/master/materials/lesson01)
 2. [Conditions](https://github.com/Bralor/python-academy-2021/tree/master/materials/lesson02)
-3. [Dictionaries & sets](https://github.com/Bralor/python-academy-2021/tree/master/materials/lesson03)
-4. [While loop](https://github.com/Bralor/python-academy-2021/tree/master/materials/lesson04)
-5. [For loop](https://github.com/Bralor/python-academy-2021/tree/master/materials/lesson05)
-6. [Importing, modules & packages](https://github.com/Bralor/python-academy-2021/tree/master/materials/lesson06)
-7. [Functions, basics](https://github.com/Bralor/python-academy-2021/tree/master/materials/lesson07)
+3. [Dicts & sets](https://github.com/Bralor/python-academy-2021/tree/master/materials/lesson03)
+4. [For loop](https://github.com/Bralor/python-academy-2021/tree/master/materials/lesson04)
+5. [While loop](https://github.com/Bralor/python-academy-2021/tree/master/materials/lesson05)
+6. [Modules & packages](https://github.com/Bralor/python-academy-2021/tree/master/materials/lesson06)
+7. [Functions, introduction](https://github.com/Bralor/python-academy-2021/tree/master/materials/lesson07)
 8. [Functions, advanced](https://github.com/Bralor/python-academy-2021/tree/master/materials/lesson08)
 9. [Text files](https://github.com/Bralor/python-academy-2021/tree/master/materials/lesson09)
 10. [Error handling, debugging](https://github.com/Bralor/python-academy-2021/tree/master/materials/lesson10)
