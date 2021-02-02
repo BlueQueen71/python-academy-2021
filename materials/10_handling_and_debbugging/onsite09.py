@@ -9,7 +9,7 @@ def nacti_txt_soubor(jmeno: str, enc: str = "utf-8") -> list:
 
     except FileNotFoundError:
         print(f"SOUBOR: {jmeno} NENALEZEN!", f"\nADRESAR: {os.getcwd()}",
-            f"\nOBSAHUJE: {os.listdir()}", sep="\n")
+              f"\nOBSAHUJE: {os.listdir()}", sep="\n")
     else:
         print(f"SOUBOR: {jmeno} NACTEN")
         return obsah
@@ -18,13 +18,12 @@ def nacti_txt_soubor(jmeno: str, enc: str = "utf-8") -> list:
 
 
 JMENO_SOUBORU = "countries_and_cities.txt"
-
 for udaj in nacti_txt_soubor(JMENO_SOUBORU):
-    if udaj == "quit":
+    if "quit" in udaj.lower():
         break
     else:
         zeme, mesto = udaj.split(", ")
         zeme = zeme.title()
         mesto = mesto.strip().title()
-        print(f"{zeme=:<20} {mesto=}")
+        print(f"{zeme=:<20} {mesto}")
 
