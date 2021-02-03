@@ -84,9 +84,10 @@
 
 ### 🆕 Issues
 <!--START_SECTION:activities-->
-1. 🏁 Issue [#1](https://github.com/Bralor/python-academy-2021/issues/1) - new content of the first lesson 💪
-2. 🏁 Issue [#2](https://github.com/Bralor/python-academy-2021/issues/2) - new content of the second lesson ☝
+1. 💥 Issue [#1](https://github.com/Bralor/python-academy-2021/issues/1) - new content of the first lesson 💪
+2. ➕ Issue [#2](https://github.com/Bralor/python-academy-2021/issues/2) - new content of the second lesson ☝
 3. ➕ Issue [#26](https://github.com/Bralor/python-academy-2021/issues/26) - update the content of the 11th lesson 🎆
+4. ✅ Issue [#26](https://github.com/Bralor/python-academy-2021/issues/26) - completed! 💪
 <!--END_SECTION:activities-->
 
 ---
