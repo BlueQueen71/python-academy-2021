@@ -69,6 +69,11 @@
 - 🐝 [Lesson01, slack](https://slack.com/intl/en-cz/)
 - 🐔 [Lesson01, engeto.com](https://engeto.com/cs/)
 - 🦋 [Lesson01, built-in functions](https://docs.python.org/3/library/functions.html)
+
+- 🐖 [Lesson11, mockaroo.com](https://mockaroo.com/)
+- 🐄 [Lesson11, json](https://docs.python.org/3/library/json.html)
+- 🐈 [Lesson11, sys](https://docs.python.org/3/library/sys.html)
+- 🐕 [Lesson11, os](https://docs.python.org/3/library/os.html)
 <!--END_SECTION:details-->
 
 </details>
@@ -79,8 +84,9 @@
 
 ### 🆕 Issues
 <!--START_SECTION:activities-->
-1. 🏁 Issue [#1](https://github.com/Bralor/python-academy-2021/issues/1) still in progess 😢
-2. 🏁 Issue [#2](https://github.com/Bralor/python-academy-2021/issues/2) still in progess 😢
+1. 🏁 Issue [#1](https://github.com/Bralor/python-academy-2021/issues/1) - new content of the first lesson 💪
+2. 🏁 Issue [#2](https://github.com/Bralor/python-academy-2021/issues/2) - new content of the second lesson ☝
+3. ➕ Issue [#26](https://github.com/Bralor/python-academy-2021/issues/26) - update the content of the 11th lesson 🎆
 <!--END_SECTION:activities-->
 
 ---
